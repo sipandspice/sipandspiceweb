@@ -1,9 +1,8 @@
-import React from 'react';
-import { getProductsByCategory } from '../data/products';
-import ProductCard from '../components/ProductCard';
+// import { getProductsByCategory } from '../data/products';
+// import ProductCard from '../components/ProductCard';
 
 function SpicesPage() {
-  const spicesProducts = getProductsByCategory('spices');
+  //const spicesProducts = getProductsByCategory('spices');
 
   return (
     <div className="container mx-auto px-4 py-24">
@@ -15,9 +14,10 @@ function SpicesPage() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-        {spicesProducts.map((product) => (
+        {/* {spicesProducts.map((product) => (
           <ProductCard key={product.id} product={product} />
-        ))}
+        ))} */}
+        Coming soon...
       </div>
     </div>
   );

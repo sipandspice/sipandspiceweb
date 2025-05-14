@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Star, ShoppingBag, Heart } from 'lucide-react';
+import { Product } from '../data/products';
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product }: { product: Product }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [isFavorite, setIsFavorite] = useState(false);
 
@@ -43,10 +44,15 @@ const ProductCard = ({ product }) => {
             isHovered ? 'translate-y-0' : 'translate-y-full'
           }`}
         >
-          <button className="w-full bg-amber-800 hover:bg-amber-700 text-white py-2 rounded-md font-medium transition-colors duration-300 flex items-center justify-center gap-2">
+          <a 
+            href={product.productLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full bg-yellow-950 hover:bg-yellow-900 text-white py-2 rounded-md font-medium transition-colors duration-300 flex items-center justify-center gap-2"
+          >
             <ShoppingBag size={16} />
-            Add to Cart
-          </button>
+            Buy Now
+          </a>
         </div>
       </div>
       

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Facebook, Twitter, Instagram, MapPin, Mail, Phone, Coffee, Leaf, Droplet } from 'lucide-react';
 
 const Footer = () => {
@@ -8,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* About */}
           <div>
-            <h3 className="text-white font-serif text-xl font-bold mb-4">Flavorful Origins</h3>
+            <h3 className="text-white font-serif text-xl font-bold mb-4">SIP & SPICE</h3>
             <p className="mb-4 text-stone-400">
               Bringing the world's finest coffee, tea, and spices directly to your kitchen, sourced responsibly and delivered fresh.
             </p>
@@ -47,48 +46,6 @@ const Footer = () => {
                   Spices
                 </a>
               </li>
-              <li>
-                <a href="/gift-sets" className="text-stone-400 hover:text-amber-500 transition-colors duration-300">
-                  Gift Sets
-                </a>
-              </li>
-              <li>
-                <a href="/subscriptions" className="text-stone-400 hover:text-amber-500 transition-colors duration-300">
-                  Subscriptions
-                </a>
-              </li>
-            </ul>
-          </div>
-          
-          {/* Company */}
-          <div>
-            <h3 className="text-white font-bold mb-4">Company</h3>
-            <ul className="space-y-2">
-              <li>
-                <a href="/about" className="text-stone-400 hover:text-amber-500 transition-colors duration-300">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="/sustainability" className="text-stone-400 hover:text-amber-500 transition-colors duration-300">
-                  Sustainability
-                </a>
-              </li>
-              <li>
-                <a href="/sourcing" className="text-stone-400 hover:text-amber-500 transition-colors duration-300">
-                  Our Sourcing
-                </a>
-              </li>
-              <li>
-                <a href="/blog" className="text-stone-400 hover:text-amber-500 transition-colors duration-300">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="/press" className="text-stone-400 hover:text-amber-500 transition-colors duration-300">
-                  Press
-                </a>
-              </li>
             </ul>
           </div>
           
@@ -117,7 +74,7 @@ const Footer = () => {
         <div className="border-t border-stone-800 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-stone-500 text-sm mb-4 md:mb-0">
-              &copy; {new Date().getFullYear()} Flavorful Origins. All rights reserved.
+              &copy; {new Date().getFullYear()} SIP & SPICE. All rights reserved.
             </p>
             <div className="flex flex-wrap gap-4 justify-center text-sm">
               <a href="/terms" className="text-stone-500 hover:text-amber-500 transition-colors duration-300">

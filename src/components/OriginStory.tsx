@@ -1,4 +1,3 @@
-import React from 'react';
 import { Leaf, Globe, Award } from 'lucide-react';
 
 const OriginStory = () => {
@@ -11,7 +10,7 @@ const OriginStory = () => {
               Our <span className="text-amber-500">Story</span>
             </h2>
             <p className="text-stone-300 mb-6">
-              Founded in 2014, Flavorful Origins began as a passion project by two friends who traveled the world in search of authentic flavors and traditional cultivation methods.
+              Founded in 2014, SIP & SPICE began as a passion project by two friends who traveled the world in search of authentic flavors and traditional cultivation methods.
             </p>
             <p className="text-stone-300 mb-8">
               Today, we work directly with small-scale farmers and cooperatives across the globe, ensuring fair compensation while preserving traditional farming practices that yield the most extraordinary flavors.

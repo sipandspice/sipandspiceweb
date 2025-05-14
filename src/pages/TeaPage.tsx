@@ -1,4 +1,3 @@
-import React from 'react';
 import { getProductsByCategory } from '../data/products';
 import ProductCard from '../components/ProductCard';
 

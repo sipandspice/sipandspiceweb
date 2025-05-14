@@ -15,6 +15,7 @@ export interface Product {
   isFeatured?: boolean;
   inStock: boolean;
   origin: string;
+  productLink: string;
 }
 
 const products: Product[] = [
@@ -33,6 +34,7 @@ const products: Product[] = [
     isFeatured: true,
     inStock: true,
     origin: "Ethiopia",
+    productLink: "https://www.amazon.com/s?k=ethiopian+yirgacheffe+coffee",
   },
   {
     id: 2,
@@ -48,6 +50,7 @@ const products: Product[] = [
     isFeatured: false,
     inStock: true,
     origin: "Colombia",
+    productLink: "https://www.amazon.com/s?k=colombian+supremo+coffee",
   },
   {
     id: 3,
@@ -64,6 +67,7 @@ const products: Product[] = [
     isFeatured: false,
     inStock: true,
     origin: "Various",
+    productLink: "https://www.amazon.com/s?k=morning+blend+coffee",
   },
   {
     id: 4,
@@ -79,6 +83,7 @@ const products: Product[] = [
     isFeatured: true,
     inStock: true,
     origin: "Brazil & Indonesia",
+    productLink: "https://www.amazon.com/s?k=espresso+dark+roast+coffee",
   },
   {
     id: 5,
@@ -94,6 +99,7 @@ const products: Product[] = [
     isFeatured: false,
     inStock: true,
     origin: "Indonesia",
+    productLink: "https://www.amazon.com/s?k=sumatra+mandheling+coffee",
   },
   {
     id: 6,
@@ -109,6 +115,7 @@ const products: Product[] = [
     isFeatured: false,
     inStock: true,
     origin: "Peru",
+    productLink: "https://www.amazon.com/s?k=peruvian+decaf+coffee",
   },
 
   // Tea Products
@@ -126,6 +133,7 @@ const products: Product[] = [
     isFeatured: true,
     inStock: true,
     origin: "China",
+    productLink: "https://www.amazon.com/s?k=jasmine+green+tea",
   },
   {
     id: 8,
@@ -141,6 +149,7 @@ const products: Product[] = [
     isFeatured: true,
     inStock: true,
     origin: "India & Sri Lanka",
+    productLink: "https://www.amazon.com/s?k=earl+grey+supreme+tea",
   },
   {
     id: 9,
@@ -156,6 +165,7 @@ const products: Product[] = [
     isFeatured: false,
     inStock: true,
     origin: "Egypt",
+    productLink: "https://www.amazon.com/s?k=chamomile+meadow+tea",
   },
   {
     id: 10,
@@ -171,6 +181,7 @@ const products: Product[] = [
     isFeatured: false,
     inStock: true,
     origin: "India",
+    productLink: "https://www.amazon.com/s?k=darjeeling+first+flush+tea",
   },
   {
     id: 11,
@@ -187,6 +198,7 @@ const products: Product[] = [
     isFeatured: false,
     inStock: true,
     origin: "India",
+    productLink: "https://www.amazon.com/s?k=ginger+turmeric+tea+blend",
   },
   {
     id: 12,
@@ -202,6 +214,7 @@ const products: Product[] = [
     isFeatured: true,
     inStock: true,
     origin: "Japan",
+    productLink: "https://www.amazon.com/s?k=ceremonial+grade+matcha",
   },
 
   // Spices Products
@@ -219,6 +232,7 @@ const products: Product[] = [
     isFeatured: true,
     inStock: true,
     origin: "Vietnam",
+    productLink: "https://www.amazon.com/s?k=saigon+cinnamon",
   },
   {
     id: 14,
@@ -234,6 +248,7 @@ const products: Product[] = [
     isFeatured: false,
     inStock: true,
     origin: "Spain",
+    productLink: "https://www.amazon.com/s?k=premium+saffron+threads",
   },
   {
     id: 15,
@@ -249,6 +264,7 @@ const products: Product[] = [
     isFeatured: true,
     inStock: true,
     origin: "Spain",
+    productLink: "https://www.amazon.com/s?k=smoked+paprika",
   },
   {
     id: 16,
@@ -264,6 +280,7 @@ const products: Product[] = [
     isFeatured: false,
     inStock: true,
     origin: "Indonesia",
+    productLink: "https://www.amazon.com/s?k=whole+nutmeg",
   },
   {
     id: 17,
@@ -279,6 +296,7 @@ const products: Product[] = [
     isFeatured: false,
     inStock: true,
     origin: "India",
+    productLink: "https://www.amazon.com/s?k=kashmiri+chili",
   },
   {
     id: 18,
@@ -295,6 +313,7 @@ const products: Product[] = [
     isFeatured: true,
     inStock: true,
     origin: "India",
+    productLink: "https://www.amazon.com/s?k=garam+masala+blend",
   },
 ];
 

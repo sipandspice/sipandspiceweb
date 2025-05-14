@@ -7,7 +7,7 @@ const testimonials = [
     name: 'Sarah Johnson',
     role: 'Coffee Enthusiast',
     image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=400',
-    quote: 'The Ethiopian Yirgacheffe from Flavorful Origins is simply outstanding. The fruity notes and floral aroma make every morning special. Their subscription service ensures I never run out!',
+    quote: 'The Ethiopian Yirgacheffe from SIP & SPICE is simply outstanding. The fruity notes and floral aroma make every morning special. Their subscription service ensures I never run out!',
     rating: 5,
   },
   {
@@ -23,7 +23,7 @@ const testimonials = [
     name: 'Emily Chen',
     role: 'Tea Connoisseur',
     image: 'https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=400',
-    quote: 'I\'ve tried countless tea brands, but the organic oolong from Flavorful Origins stands out. The careful packaging preserves every subtle note, and their sustainable practices make me feel good about my purchase.',
+    quote: 'I\'ve tried countless tea brands, but the organic oolong from SIP & SPICE stands out. The careful packaging preserves every subtle note, and their sustainable practices make me feel good about my purchase.',
     rating: 5,
   },
 ];

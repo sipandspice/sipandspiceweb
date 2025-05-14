@@ -1,5 +1,4 @@
-import React from 'react';
-import { Star, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import ProductCard from './ProductCard';
 import { featuredProducts } from '../data/products';
 
