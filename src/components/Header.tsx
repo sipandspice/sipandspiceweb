@@ -98,11 +98,11 @@ interface NavLinkProps {
 const NavLink = ({ icon, title, to, isScrolled, isHomePage }: NavLinkProps) => (
   <Link 
     to={to}
-    className={`flex items-center space-x-1 font-medium transition-colors duration-300 hover:text-amber-600 ${
-      isScrolled || !isHomePage ? 'text-stone-800' : 'text-white'
+    className={`flex items-center space-x-1 font-medium transition-colors duration-300 ${
+      isScrolled || !isHomePage ? 'text-stone-800 hover:text-yellow-700' : 'text-white hover:text-yellow-500/80'
     }`}
   >
-    <span className="text-yellow-500/70">{icon}</span>
+    <span className={`${isScrolled ? "text-yellow-700": "text-yellow-500/70"}`}>{icon}</span>
     <span>{title}</span>
   </Link>
 );
