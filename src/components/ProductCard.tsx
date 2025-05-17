@@ -48,7 +48,7 @@ const ProductCard = ({ product }: { product: Product }) => {
         >
           <div className="flex gap-2">
             <a
-              href={product.productLink}
+              href={product.productLinkEbay}
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 bg-yellow-950 hover:bg-yellow-900 text-white py-2 rounded-md font-medium transition-colors duration-300 flex items-center justify-center gap-2"
@@ -57,7 +57,7 @@ const ProductCard = ({ product }: { product: Product }) => {
               Buy from eBay
             </a>
             <a
-              href={product.productLink}
+              href={product.productLinkWhatsApp}
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 bg-yellow-950 hover:bg-yellow-900 text-white py-2 rounded-md font-medium transition-colors duration-300 flex items-center justify-center gap-2"

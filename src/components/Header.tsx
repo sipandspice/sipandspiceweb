@@ -102,7 +102,7 @@ const NavLink = ({ icon, title, to, isScrolled, isHomePage }: NavLinkProps) => (
       isScrolled || !isHomePage ? 'text-stone-800' : 'text-white'
     }`}
   >
-    <span className="text-amber-800">{icon}</span>
+    <span className="text-yellow-500/70">{icon}</span>
     <span>{title}</span>
   </Link>
 );
