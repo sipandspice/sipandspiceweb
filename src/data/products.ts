@@ -15,7 +15,8 @@ export interface Product {
   isFeatured?: boolean;
   inStock: boolean;
   origin: string;
-  productLink: string;
+  productLinkEbay: string;
+  productLinkWhatsApp: string;
 }
 
 const products: Product[] = [
@@ -25,6 +26,7 @@ const products: Product[] = [
     name: "Ethiopian Yirgacheffe",
     description: "Bright and fruity with notes of blueberry and citrus.",
     price: 16.99,
+    oldPrice: 18.99,
     category: "coffee",
     subcategory: "single origin",
     image: "https://images.pexels.com/photos/1695052/pexels-photo-1695052.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -34,7 +36,8 @@ const products: Product[] = [
     isFeatured: true,
     inStock: true,
     origin: "Ethiopia",
-    productLink: "https://www.amazon.com/s?k=ethiopian+yirgacheffe+coffee",
+    productLinkEbay: "https://www.amazon.com/s?k=ethiopian+yirgacheffe+coffee",
+    productLinkWhatsApp: "https://www.amazon.com/s?k=ethiopian+yirgacheffe+coffee",
   },
   {
     id: 2,
@@ -50,7 +53,8 @@ const products: Product[] = [
     isFeatured: false,
     inStock: true,
     origin: "Colombia",
-    productLink: "https://www.amazon.com/s?k=colombian+supremo+coffee",
+    productLinkEbay: "https://www.amazon.com/s?k=colombian+supremo+coffee",
+    productLinkWhatsApp: "https://www.amazon.com/s?k=colombian+supremo+coffee",
   },
   {
     id: 3,
@@ -67,7 +71,8 @@ const products: Product[] = [
     isFeatured: false,
     inStock: true,
     origin: "Various",
-    productLink: "https://www.amazon.com/s?k=morning+blend+coffee",
+    productLinkEbay: "https://www.amazon.com/s?k=morning+blend+coffee",
+    productLinkWhatsApp: "https://www.amazon.com/s?k=morning+blend+coffee",
   },
   {
     id: 4,
@@ -83,7 +88,8 @@ const products: Product[] = [
     isFeatured: true,
     inStock: true,
     origin: "Brazil & Indonesia",
-    productLink: "https://www.amazon.com/s?k=espresso+dark+roast+coffee",
+    productLinkEbay: "https://www.amazon.com/s?k=espresso+dark+roast+coffee",
+    productLinkWhatsApp: "https://www.amazon.com/s?k=espresso+dark+roast+coffee",
   },
   {
     id: 5,
@@ -99,7 +105,8 @@ const products: Product[] = [
     isFeatured: false,
     inStock: true,
     origin: "Indonesia",
-    productLink: "https://www.amazon.com/s?k=sumatra+mandheling+coffee",
+    productLinkEbay: "https://www.amazon.com/s?k=sumatra+mandheling+coffee",
+    productLinkWhatsApp: "https://www.amazon.com/s?k=sumatra+mandheling+coffee",
   },
   {
     id: 6,
@@ -115,7 +122,8 @@ const products: Product[] = [
     isFeatured: false,
     inStock: true,
     origin: "Peru",
-    productLink: "https://www.amazon.com/s?k=peruvian+decaf+coffee",
+    productLinkEbay: "https://www.amazon.com/s?k=peruvian+decaf+coffee",
+    productLinkWhatsApp: "https://www.amazon.com/s?k=peruvian+decaf+coffee",
   },
 
   // Tea Products
@@ -133,7 +141,8 @@ const products: Product[] = [
     isFeatured: true,
     inStock: true,
     origin: "China",
-    productLink: "https://www.amazon.com/s?k=jasmine+green+tea",
+    productLinkEbay: "https://www.amazon.com/s?k=jasmine+green+tea",
+    productLinkWhatsApp: "https://www.amazon.com/s?k=jasmine+green+tea",
   },
   {
     id: 8,
@@ -149,7 +158,8 @@ const products: Product[] = [
     isFeatured: true,
     inStock: true,
     origin: "India & Sri Lanka",
-    productLink: "https://www.amazon.com/s?k=earl+grey+supreme+tea",
+    productLinkEbay: "https://www.amazon.com/s?k=earl+grey+supreme+tea",
+    productLinkWhatsApp: "https://www.amazon.com/s?k=earl+grey+supreme+tea",
   },
   {
     id: 9,
@@ -165,7 +175,8 @@ const products: Product[] = [
     isFeatured: false,
     inStock: true,
     origin: "Egypt",
-    productLink: "https://www.amazon.com/s?k=chamomile+meadow+tea",
+    productLinkEbay: "https://www.amazon.com/s?k=chamomile+meadow+tea",
+    productLinkWhatsApp: "https://www.amazon.com/s?k=chamomile+meadow+tea",
   },
   {
     id: 10,
@@ -181,7 +192,8 @@ const products: Product[] = [
     isFeatured: false,
     inStock: true,
     origin: "India",
-    productLink: "https://www.amazon.com/s?k=darjeeling+first+flush+tea",
+    productLinkEbay: "https://www.amazon.com/s?k=darjeeling+first+flush+tea",
+    productLinkWhatsApp: "https://www.amazon.com/s?k=darjeeling+first+flush+tea",
   },
   {
     id: 11,
@@ -198,7 +210,8 @@ const products: Product[] = [
     isFeatured: false,
     inStock: true,
     origin: "India",
-    productLink: "https://www.amazon.com/s?k=ginger+turmeric+tea+blend",
+    productLinkEbay: "https://www.amazon.com/s?k=ginger+turmeric+tea+blend",
+    productLinkWhatsApp: "https://www.amazon.com/s?k=ginger+turmeric+tea+blend",
   },
   {
     id: 12,
@@ -214,7 +227,8 @@ const products: Product[] = [
     isFeatured: true,
     inStock: true,
     origin: "Japan",
-    productLink: "https://www.amazon.com/s?k=ceremonial+grade+matcha",
+    productLinkEbay: "https://www.amazon.com/s?k=ceremonial+grade+matcha",
+    productLinkWhatsApp: "https://www.amazon.com/s?k=ceremonial+grade+matcha",
   },
 
   // Spices Products
@@ -232,7 +246,8 @@ const products: Product[] = [
     isFeatured: true,
     inStock: true,
     origin: "Vietnam",
-    productLink: "https://www.amazon.com/s?k=saigon+cinnamon",
+    productLinkEbay: "https://www.amazon.com/s?k=saigon+cinnamon",
+    productLinkWhatsApp: "https://www.amazon.com/s?k=saigon+cinnamon",
   },
   {
     id: 14,
@@ -248,7 +263,8 @@ const products: Product[] = [
     isFeatured: false,
     inStock: true,
     origin: "Spain",
-    productLink: "https://www.amazon.com/s?k=premium+saffron+threads",
+    productLinkEbay: "https://www.amazon.com/s?k=premium+saffron+threads",
+    productLinkWhatsApp: "https://www.amazon.com/s?k=premium+saffron+threads",
   },
   {
     id: 15,
@@ -264,7 +280,8 @@ const products: Product[] = [
     isFeatured: true,
     inStock: true,
     origin: "Spain",
-    productLink: "https://www.amazon.com/s?k=smoked+paprika",
+    productLinkEbay: "https://www.amazon.com/s?k=smoked+paprika",
+    productLinkWhatsApp: "https://www.amazon.com/s?k=smoked+paprika",
   },
   {
     id: 16,
@@ -280,7 +297,8 @@ const products: Product[] = [
     isFeatured: false,
     inStock: true,
     origin: "Indonesia",
-    productLink: "https://www.amazon.com/s?k=whole+nutmeg",
+    productLinkEbay: "https://www.amazon.com/s?k=whole+nutmeg",
+    productLinkWhatsApp: "https://www.amazon.com/s?k=whole+nutmeg",
   },
   {
     id: 17,
@@ -296,7 +314,8 @@ const products: Product[] = [
     isFeatured: false,
     inStock: true,
     origin: "India",
-    productLink: "https://www.amazon.com/s?k=kashmiri+chili",
+    productLinkEbay: "https://www.amazon.com/s?k=kashmiri+chili",
+    productLinkWhatsApp: "https://www.amazon.com/s?k=kashmiri+chili",
   },
   {
     id: 18,
@@ -313,7 +332,8 @@ const products: Product[] = [
     isFeatured: true,
     inStock: true,
     origin: "India",
-    productLink: "https://www.amazon.com/s?k=garam+masala+blend",
+    productLinkEbay: "https://www.amazon.com/s?k=garam+masala+blend",
+    productLinkWhatsApp: "https://www.amazon.com/s?k=garam+masala+blend",
   },
 ];
 
