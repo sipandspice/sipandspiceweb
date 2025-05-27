@@ -41,29 +41,33 @@ const ProductCard = ({ product }: { product: Product }) => {
           </div>
         )}
 
-        <div 
+        <div
           className={`absolute bottom-0 left-0 right-0 bg-white p-3 transform transition-transform duration-300 ${
             isHovered ? "translate-y-0" : "translate-y-full"
           }`}
         >
-          <div className="flex gap-2">
+          <div className="flex flex-col sm:flex-row gap-2">
             <a
               href={product.productLinkEbay}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-1 bg-yellow-950 hover:bg-yellow-900 text-white py-2 rounded-md font-medium transition-colors duration-300 flex items-center justify-center gap-2"
+              className="flex-1 bg-yellow-950 hover:bg-yellow-900 text-white py-2 px-1 rounded-md font-medium transition-colors duration-300 flex items-center justify-center gap-1"
             >
-              <ShoppingBag size={16} />
-              Buy from eBay
+              <ShoppingBag size={14} className="flex-shrink-0" />
+              <span className="text-xs sm:text-sm whitespace-nowrap overflow-hidden text-ellipsis">
+                Buy from eBay
+              </span>
             </a>
             <a
               href={product.productLinkWhatsApp}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-1 bg-yellow-950 hover:bg-yellow-900 text-white py-2 rounded-md font-medium transition-colors duration-300 flex items-center justify-center gap-2"
+              className="flex-1 bg-yellow-950 hover:bg-yellow-900 text-white py-2 px-1 rounded-md font-medium transition-colors duration-300 flex items-center justify-center gap-1"
             >
-              <MessageCircleReply size={16} />
-              Buy from WhatsApp
+              <MessageCircleReply size={14} className="flex-shrink-0" />
+              <span className="text-xs sm:text-sm whitespace-nowrap overflow-hidden text-ellipsis">
+                Buy from Whatsapp
+              </span>
             </a>
           </div>
         </div>

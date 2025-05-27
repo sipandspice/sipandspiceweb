@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Instagram, MapPin, Mail, Phone, Coffee, Leaf, Droplet } from 'lucide-react';
+import { MapPin, Mail, Phone, Coffee, Leaf, Droplet } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -11,7 +11,7 @@ const Footer = () => {
             <p className="mb-4 text-stone-400">
               Bringing the world's finest coffee, tea, and spices directly to your kitchen, sourced responsibly and delivered fresh.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a href="#" className="text-stone-400 hover:text-amber-500 transition-colors duration-300">
                 <Facebook size={20} />
               </a>
@@ -21,7 +21,7 @@ const Footer = () => {
               <a href="#" className="text-stone-400 hover:text-amber-500 transition-colors duration-300">
                 <Instagram size={20} />
               </a>
-            </div>
+            </div> */}
           </div>
           
           {/* Shop */}
